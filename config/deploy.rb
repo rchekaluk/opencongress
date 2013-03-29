@@ -23,7 +23,7 @@ set :rake, "/opt/rubye/bin/rake"
 roles[:web]
 
 default_run_options[:pty] = true
-set :repository,  "git://github.com/opencongress/opencongress.git"
+set :repository,  "git://github.com/rchekaluk/opencongress.git"
 set :branch, "master"
 set :scm, :git
 set :deploy_via, :remote_cache
